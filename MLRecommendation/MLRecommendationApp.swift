@@ -14,9 +14,11 @@ struct MLRecommendationApp: App {
         WindowGroup {
             let albumService = LocalAlbumService()
             let favoritesService = LocalFavoritesService()
+            let recommendationService = MLRecommendationService()
             
             AlbumsView(viewModel: AlbumsViewModel(albumService: albumService,
-                                                  favoritesService: favoritesService))
+                                                  favoritesService: favoritesService,
+                                                  recommendationService: recommendationService))
         }
     }
 }

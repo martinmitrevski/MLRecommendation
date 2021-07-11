@@ -10,7 +10,13 @@ import CoreML
 import TabularData
 import CreateML
 
-class RecommendationService {
+protocol RecommendationService {
+    
+    func prediction(for favoriteAlbums: [Album], allAlbums: [Album]) async throws -> [Album]
+    
+}
+
+class MLRecommendationService: RecommendationService {
             
     func prediction(for favoriteAlbums: [Album], allAlbums: [Album]) async throws -> [Album] {
         let allKeywords = allKeywords(from: allAlbums)

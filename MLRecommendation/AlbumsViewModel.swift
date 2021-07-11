@@ -6,7 +6,7 @@ class AlbumsViewModel: ObservableObject {
     
     private let albumService: AlbumService
     private let favoritesService: FavoritesService
-    private let recommendationService = RecommendationService()
+    private let recommendationService: RecommendationService
     
     @Published var allAlbums = [Album]() {
         didSet {
@@ -17,9 +17,11 @@ class AlbumsViewModel: ObservableObject {
     @Published var recommendedAlbums = [Album]()
     
     init(albumService: AlbumService,
-         favoritesService: FavoritesService) {
+         favoritesService: FavoritesService,
+         recommendationService: RecommendationService) {
         self.albumService = albumService
         self.favoritesService = favoritesService
+        self.recommendationService = recommendationService
     }
     
     func loadAlbums() async {
