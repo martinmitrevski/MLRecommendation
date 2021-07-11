@@ -1,0 +1,170 @@
+[
+    {
+       "name": "The Joshua Tree",
+       "artist": "U2",
+       "artwork": "joshuatree",
+       "keywords": ["rock", "alternative", "pop-rock", "post-punk"]
+    },
+    {
+       "name": "All that you can't leave behind",
+       "artist": "U2",
+       "artwork": "leavebehind",
+       "keywords": ["rock", "alternative", "pop-rock", "post-punk"]
+    },
+    {
+       "name": "Parachutes",
+       "artist": "Coldplay",
+       "artwork": "parachutes",
+       "keywords": ["alternative", "pop-rock", "brit-pop"]
+    },
+    {
+       "name": "Definitely Maybe",
+       "artist": "Oasis",
+       "artwork": "maybe",
+       "keywords": ["rock", "brit-pop"]
+    },
+    {
+       "name": "Queen",
+       "artist": "Queen",
+       "artwork": "queen",
+       "keywords": ["rock"]
+    },
+    {
+       "name": "Abbey Road",
+       "artist": "The Beatles",
+       "artwork": "beatles",
+       "keywords": ["rock", "pop-rock", "country"]
+    },
+    {
+       "name": "The dark side of the moon",
+       "artist": "Pink Floyd",
+       "artwork": "moon",
+       "keywords": ["progressive-rock", "psychedelic-rock", "psychedelic-pop", "rock"]
+    },
+    {
+       "name": "The Slim Shady",
+       "artist": "Eminem",
+       "artwork": "slimshady",
+       "keywords": ["hip-hop"]
+    },
+    {
+       "name": "Get rich or die tryin'",
+       "artist": "50 Cent",
+       "artwork": "getrich",
+       "keywords": ["hip-hop"]
+    },
+    {
+       "name": "The Chronic",
+       "artist": "Dr. Dre",
+       "artwork": "chronic",
+       "keywords": ["hip-hop"]
+    },
+    {
+       "name": "Good girl gone bad",
+       "artist": "Rihanna",
+       "artwork": "goodgirl",
+       "keywords": ["pop", "r&b"]
+    },
+    {
+       "name": "On the 6",
+       "artist": "Jennifer Lopez",
+       "artwork": "six",
+       "keywords": ["r&b", "pop", "latin", "dance"]
+    },
+    {
+       "name": "Starboy",
+       "artist": "The Weeknd",
+       "artwork": "starboy",
+       "keywords": ["pop", "r&b", "electropop"]
+    },
+    {
+       "name": "Escape",
+       "artist": "Enrique Iglesias",
+       "artwork": "escape",
+       "keywords": ["pop", "latin"]
+    },
+    {
+       "name": "Laundry Service",
+       "artist": "Shakira",
+       "artwork": "laundry",
+       "keywords": ["pop", "latin"]
+    },
+    {
+       "name": "Sing when you're winning",
+       "artist": "Robbie Williams",
+       "artwork": "singwin",
+       "keywords": ["pop", "pop-rock", "soft-rock", "alternative"]
+    },
+    {
+       "name": "Multiply",
+       "artist": "Ed Sheeran",
+       "artwork": "multiply",
+       "keywords": ["pop", "folk-pop"]
+    },
+    {
+       "name": "Master of Puppets",
+       "artist": "Metallica",
+       "artwork": "master",
+       "keywords": ["heavy-metal", "thrash-metal", "hard-rock"]
+    },
+    {
+       "name": "Use Your Illusion I",
+       "artist": "Guns N' Roses",
+       "artwork": "ilussion",
+       "keywords": ["heavy-metal", "rock", "hard-rock"]
+    },
+    {
+       "name": "Singing to Strangers",
+       "artist": "Jack Savoretti",
+       "artwork": "strangers",
+       "keywords": ["folk-rock", "alternative", "pop", "pop-rock"]
+    },
+    {
+       "name": "The Hardest Thing",
+       "artist": "Toshe Proeski",
+       "artwork": "hardestthing",
+       "keywords": ["pop", "pop-rock"]
+    },
+    {
+       "name": "After hours",
+       "artist": "The Weeknd",
+       "artwork": "afterhours",
+       "keywords": ["pop", "r&b", "electropop"]
+    },
+    {
+       "name": "Dangerous Woman",
+       "artist": "Ariana Grande",
+       "artwork": "dangerouswoman",
+       "keywords": ["pop", "r&b"]
+    },
+    {
+       "name": "Divide",
+       "artist": "Ed Sheeran",
+       "artwork": "divide",
+       "keywords": ["pop", "folk-pop"]
+    },
+    {
+       "name": "Eyes open",
+       "artist": "Snow Patrol",
+       "artwork": "eyesopen",
+       "keywords": ["alternative", "britpop"]
+    },
+    {
+       "name": "Nellyville",
+       "artist": "Nelly",
+       "artwork": "nellyville",
+       "keywords": ["hip-hop", "r&b"]
+    },
+    {
+       "name": "B'day",
+       "artist": "Beyonce",
+       "artwork": "bday",
+       "keywords": ["pop", "r&b"]
+    },
+    {
+       "name": "Songs of experience",
+       "artist": "U2",
+       "artwork": "experience",
+       "keywords": ["rock", "alternative", "pop-rock", "post-punk"]
+    }
+]
