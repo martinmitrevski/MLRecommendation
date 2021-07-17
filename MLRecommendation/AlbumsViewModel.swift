@@ -40,7 +40,7 @@ class AlbumsViewModel: ObservableObject {
             favoritesService.addToFavorites(album: album)
         }
         updateFavorites()
-        async {
+        Task {
             try await makeRecommendations()
         }
     }
@@ -52,7 +52,7 @@ class AlbumsViewModel: ObservableObject {
     // MARK: - private
     
     private func makeRecommendations() async throws {
-        async {
+        Task {
             var favoriteAlbums = [Album]()
             for (index, value) in favorites.enumerated() {
                 if value == true {

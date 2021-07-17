@@ -44,7 +44,7 @@ struct AlbumsView: View {
             }
             .navigationBarTitle("Albums")
             .onAppear {
-                async {
+                Task {
                     await viewModel.loadAlbums()
                 }
             }
